@@ -1,6 +1,6 @@
 #add module for provision Infrastructure
 module "lunch_instances" {
-  source = "../Infra_provisioner"
+  source = "../Openstack"
 #  auth_url = var.auth_url
 #  tenant_id = var.tenant_id
 #  tenant_name = var.tenant_name
